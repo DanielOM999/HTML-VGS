@@ -1,0 +1,43 @@
+/* 
+her styler jeg alle overskrifter med prio 1 og lenker jeg 
+endrer da farge bakgrunsfarge størelse font plassering paddingen og marginen 
+*/
+h1, a{
+    color: white;
+    background-color: purple;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 5px;
+    margin: 12px;
+}
+/* her adder jeg i tilleg en border på 1 pixel til alle overskrifter med prio 1 */
+h1 {
+    border: 2px solid rgb(35, 8, 12);
+}
+
+/* adder en spesiel padding og margin til alle elementer som har classen secondH1 */
+.secondH1{
+    padding: 12px 4px 6px 9px;
+    margin: 12px 15px 6px 9px;
+}
+
+/* adder en spesiel padding og margin til alle elementer som har classen thirdH1 */
+.thirdH1{
+    padding: 20px 5px;
+    margin: 20px 5px;
+}
+
+/* 
+styler alle avsnitt i texten hvor jeg 
+endrer farge bakgrunsfarge skrift størelse font skrift tykkelse plassering og padding 
+*/
+p{
+    color: black;
+    background-color: rgb(218, 218, 0);
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    text-align: center;
+    padding: 5px;
+}
